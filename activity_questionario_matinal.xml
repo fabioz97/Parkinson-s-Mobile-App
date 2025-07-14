@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".QuestionarioMatinal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="Questionário Matinal"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dormi bem?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Pergunta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/resposta1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo fortemente"
+                android:tag="1" />
+            <RadioButton
+                android:id="@+id/resposta1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo Parcialmente"
+                android:tag="2" />
+            <RadioButton
+                android:id="@+id/resposta1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutro"
+                android:tag="3" />
+            <RadioButton
+                android:id="@+id/resposta1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De certo modo concordo"
+                android:tag="4" />
+            <RadioButton
+                android:id="@+id/resposta1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo"
+                android:tag="5" />
+            <RadioButton
+                android:id="@+id/resposta1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo plenamente"
+                android:tag="6" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acordei várias vezes ao longo da noite?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Pergunta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/resposta2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo fortemente"
+                android:tag="1" />
+            <RadioButton
+                android:id="@+id/resposta2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo Parcialmente"
+                android:tag="2" />
+            <RadioButton
+                android:id="@+id/resposta2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutro"
+                android:tag="3" />
+            <RadioButton
+                android:id="@+id/resposta2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De certo modo concordo"
+                android:tag="4" />
+            <RadioButton
+                android:id="@+id/resposta2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo"
+                android:tag="5" />
+            <RadioButton
+                android:id="@+id/resposta2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo plenamente"
+                android:tag="6" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinto-me descansado?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Pergunta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/resposta3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo fortemente"
+                android:tag="1" />
+            <RadioButton
+                android:id="@+id/resposta3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo Parcialmente"
+                android:tag="2" />
+            <RadioButton
+                android:id="@+id/resposta3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutro"
+                android:tag="3" />
+            <RadioButton
+                android:id="@+id/resposta3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De certo modo concordo"
+                android:tag="4" />
+            <RadioButton
+                android:id="@+id/resposta3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo"
+                android:tag="5" />
+            <RadioButton
+                android:id="@+id/resposta3_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo plenamente"
+                android:tag="6" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foi fisicamente difícil levantar-me?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Pergunta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/resposta4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo fortemente"
+                android:tag="1" />
+            <RadioButton
+                android:id="@+id/resposta4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo Parcialmente"
+                android:tag="2" />
+            <RadioButton
+                android:id="@+id/resposta4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutro"
+                android:tag="3" />
+            <RadioButton
+                android:id="@+id/resposta4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De certo modo concordo"
+                android:tag="4" />
+            <RadioButton
+                android:id="@+id/resposta4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo"
+                android:tag="5" />
+            <RadioButton
+                android:id="@+id/resposta4_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo plenamente"
+                android:tag="6" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foi mentalmente difícil levantar-me?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Pergunta5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/resposta5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo fortemente"
+                android:tag="1" />
+            <RadioButton
+                android:id="@+id/resposta5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discordo Parcialmente"
+                android:tag="2" />
+            <RadioButton
+                android:id="@+id/resposta5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutro"
+                android:tag="3" />
+            <RadioButton
+                android:id="@+id/resposta5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De certo modo concordo"
+                android:tag="4" />
+            <RadioButton
+                android:id="@+id/resposta5_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo"
+                android:tag="5" />
+            <RadioButton
+                android:id="@+id/resposta5_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concordo plenamente"
+                android:tag="6" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/botaoSubmeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submeter"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
